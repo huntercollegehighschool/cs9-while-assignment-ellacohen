@@ -7,14 +7,14 @@ The program below is supposed to find and print the number of perfect squares th
 
 Example of what should appear on the console when this part runs:
 
-Enter a number: 50
-Number of squares less than or equal to 50: 7
+
 
 '''
 num = int(input("Enter a number:"))
 numbertosquare = 1
 numsquares = 0
+
 while numbertosquare ** 2 <= num:
     numsquares = numsquares + 1
-    
-print("Number of squares less than or equal to", str(num)+':', numsquares)
+
+print("Number  of squares less than or equal to", str(num)+':', numsquares)
